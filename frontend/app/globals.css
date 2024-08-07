@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-text-change::before {
+  content: "Text";
+}
+
+.hover-text-change:hover::before {
+  content: "Chat";
+}
