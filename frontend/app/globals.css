@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hover-text-change::before {
-  content: "Text";
+  content: "Talk";
 }
 
 .hover-text-change:hover::before {
