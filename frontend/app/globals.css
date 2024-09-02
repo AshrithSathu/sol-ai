@@ -9,3 +9,15 @@
 .hover-text-change:hover::before {
   content: "Chat";
 }
+
+.btn {
+  @apply rounded px-4 py-2 text-white;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-red-500 hover:bg-red-700;
+}
