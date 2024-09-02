@@ -7,9 +7,10 @@ import Starfield from "react-starfield";
 import { Wallet } from "@/components/wallet";
 function MyApp() {
   const [data, setData] = useState("");
-  const handleSend = (input) => {
+  const handleSend = (input: string): void => {
     setData(input);
   };
+
   return (
     <Wallet>
       <div className="relative h-screen bg-black">
